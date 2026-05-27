@@ -5,7 +5,7 @@ export const translations = {
     'nav.projects': 'Projetos',
     'nav.contact':  'Contato',
 
-    'hero.eyebrow': 'Bem vinde!',
+    'hero.eyebrow': 'Bem-vinde!',
     'hero.role':    'Senior QA Engineer · AWS Community Builder · SDET',
     'hero.bio':     'QA Engineer desde 2021, com foco em automação e Continuous Testing de aplicações web, APIs e microsserviços. AWS Community Builder e mentora na comunidade He4rt Developers.',
     'stats.repos':     'Repositórios',
