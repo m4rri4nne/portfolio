@@ -26,19 +26,19 @@ export default function Hero() {
             </svg>
             <div
               className="arch-img-clip"
-              style={{ clipPath: 'polygon(0 100%, 0 37%, 50% 0, 100% 37%, 100% 100%)' }}
+              style={{ clipPath: 'circle(90% 90%, 90% 90%)' }}
             >
               <img src="https://avatars.githubusercontent.com/u/57607749?v=4" alt="Alicia Marianne" />
             </div>
             <div className="corner corner-tl" />
             <div className="corner corner-br" />
           </div>
-          <div className="arch-bottom-label">QA Engineer</div>
+          <div className="arch-bottom-label">QA Engineer - SDET</div>
         </div>
 
         <div className="hero-text">
           <p className="hero-eyebrow">{t['hero.eyebrow']}</p>
-          <h1 className="hero-name">Alicia Marianne</h1>
+          <h1 className="hero-name">Alicia Marianne Gonçalves</h1>
           <p className="hero-role">{t['hero.role']}</p>
           <p className="hero-bio">{t['hero.bio']}</p>
           <div className="hero-stats">
@@ -58,6 +58,8 @@ export default function Hero() {
           <div className="hero-cta">
             <a href="#projects" className="btn btn-primary">{t['hero.cta1']}</a>
             <a href="#contact" className="btn btn-ghost">{t['hero.cta2']}</a>
+            <a href="#articles" className="btn btn-ghost">{t['hero.cta3']}</a>
+            <a href="/alicia_depaula.pdf" download className="btn btn-gold">{t['hero.cta4']}</a>
           </div>
         </div>
 
