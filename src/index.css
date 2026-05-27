@@ -290,7 +290,7 @@ nav {
 }
 
 .hero-bio {
-  font-size: 0.93rem;
+  font-size: 1.05rem;
   color: var(--text-secondary);
   line-height: 1.95;
   max-width: 480px;
@@ -445,7 +445,7 @@ section {
 
 .about-text p {
   color: var(--text-secondary);
-  font-size: 0.93rem;
+  font-size: 1.05rem;
   line-height: 1.9;
   margin-bottom: 1.3rem;
 }
@@ -597,7 +597,7 @@ section {
 }
 
 .a-desc {
-  font-size: 0.77rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   line-height: 1.65;
   margin-bottom: 1rem;
@@ -727,7 +727,7 @@ section {
 }
 
 .p-desc {
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   line-height: 1.65;
   margin-bottom: 1.2rem;
@@ -762,7 +762,7 @@ section {
 
 .contact-body p {
   color: var(--text-secondary);
-  font-size: 0.93rem;
+  font-size: 1.05rem;
   line-height: 1.9;
   margin-bottom: 1.3rem;
   max-width: 560px;
