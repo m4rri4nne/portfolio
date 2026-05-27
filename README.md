@@ -1,89 +1,97 @@
-# Alicia Marianne — QA Portfolio
+<div align="center">
 
-Personal portfolio built with React + Vite, deployed to GitHub Pages.
+# ✦ Alicia Marianne — Portfolio
 
-**Live:** https://m4rri4nne.github.io/portfolio/
+**QA Engineer · AWS Community Builder · He4rt Developers Mentor**
+
+[![Deploy](https://github.com/m4rri4nne/portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/m4rri4nne/portfolio/actions/workflows/deploy.yml)
+[![Live](https://img.shields.io/badge/Live-GitHub%20Pages-8b4fc8?style=flat-square&logo=github)](https://m4rri4nne.github.io/portfolio/)
+
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-Vanilla-1572B6?style=flat-square&logo=css3&logoColor=white)
+![i18n](https://img.shields.io/badge/i18n-PT%20·%20EN%20·%20FR-c9a030?style=flat-square)
+![Node](https://img.shields.io/badge/Node-24-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
+</div>
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-- **React 18** + **Vite 6**
-- Vanilla CSS with custom properties (no CSS framework)
-- i18n: PT / EN / FR (no external library)
-- CI/CD: GitHub Actions → GitHub Pages
+- 🌗 **Dark / light** theme toggle
+- 🌐 **Trilingual** — PT / EN / FR switcher (no external library)
+- 📱 **Responsive** — mobile-first, breakpoint at 720px
+- 📄 **CV download** — served from `public/`
+- 📡 **Live articles** — fetched from the dev.to API with pagination
+- 🐙 **Live projects** — fetched from the GitHub API, sorted by stars
+- 🚀 **Auto-deploy** — GitHub Actions → GitHub Pages on every push to `main`
 
-## Project Structure
+---
+
+## 🗂 Project Structure
 
 ```
-src/
-├── App.jsx              # AppContext — theme & language state
-├── main.jsx
-├── index.css            # Design system (CSS variables, all styles)
-├── translations.js      # PT / EN / FR strings
-└── components/
-    ├── Nav.jsx
-    ├── Hero.jsx
-    ├── About.jsx
-    ├── Articles.jsx
-    ├── Projects.jsx
-    ├── Contact.jsx
-    ├── Footer.jsx
-    └── GothicDivider.jsx
+portifolio/
+├── public/
+│   └── alicia_depaula.pdf     # CV — place file here
+├── src/
+│   ├── App.jsx                # AppContext: theme & language state
+│   ├── main.jsx
+│   ├── index.css              # Design system (CSS variables, all styles)
+│   ├── translations.js        # PT / EN / FR strings
+│   └── components/
+│       ├── Nav.jsx
+│       ├── Hero.jsx           # CTA grid, stats, avatar
+│       ├── About.jsx          # Bio, skills, language bars
+│       ├── Articles.jsx       # dev.to API + pagination
+│       ├── Projects.jsx       # GitHub API + star sort
+│       ├── Contact.jsx        # Icon-only social links
+│       ├── Footer.jsx
+│       └── GothicDivider.jsx
+├── .github/
+│   └── workflows/
+│       └── deploy.yml         # Build + deploy to GitHub Pages
+└── vite.config.js
 ```
 
-## Local Development
+---
+
+## 🛠 Local Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open http://localhost:5173/portfolio/
-
-## Build
+Open [http://localhost:5173/portfolio/](http://localhost:5173/portfolio/)
 
 ```bash
-npm run build   # outputs to dist/
-npm run preview # preview the production build locally
+npm run build    # outputs to dist/
+npm run preview  # preview production build locally
 ```
 
-## Deployment
+---
 
-Pushes to `main` trigger the GitHub Actions workflow in [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), which builds the project and deploys `dist/` to GitHub Pages automatically.
+## 🚀 Deployment
 
-**First-time setup:** In the repository **Settings → Pages**, set the source to **GitHub Actions**.
+Every push to `main` triggers the [deploy workflow](.github/workflows/deploy.yml), which builds the project and publishes `dist/` to GitHub Pages automatically.
 
-## CV Download
+**First-time setup:** go to the repository **Settings → Pages** and set the source to **GitHub Actions**.
 
-Place `alicia_depaula.pdf` inside the `public/` folder at the project root. Vite serves it as `/alicia_depaula.pdf`, which is what the Download CV button links to.
+---
 
-## Features
+## 📡 Live Data
 
-- Dark / light theme toggle
-- PT / EN / FR language switcher
-- Responsive layout (mobile-first breakpoint at 720px)
-- Sections: Hero, About, Articles, Projects, Contact
+| Section | Source | Details |
+|---|---|---|
+| Articles | [dev.to API](https://dev.to/api/articles?username=m4rri4nne) | Fetched on load · 6 per page |
+| Projects | [GitHub API](https://api.github.com/users/m4rri4nne/repos) | Filtered forks · sorted by ★ |
 
-### Hero
-- 4-button CTA grid: View Projects, Contact, My Articles, Download CV
-- Stats: repositories, followers, articles
+---
 
-### About
-- Updated bio reflecting 4+ years in QA (since 2021), background in Control and Automation Engineering, experience with manual and automated testing of web apps, APIs and microservices
-- Mentions Continuous Testing, He4rt Delas participation, and He4rt Developers mentoring
-- Skills: testing tools, cloud/DevOps, languages, and spoken language bars
+<div align="center">
 
-### Articles
-- Articles fetched live from the **dev.to API** (`/api/articles?username=m4rri4nne`)
-- Client-side pagination: 6 articles per page with Previous / Next controls
-- Skeleton loading state while fetching
+made with 💜 by [Alicia Marianne](https://github.com/m4rri4nne)
 
-### Projects
-- Repositories fetched live from the **GitHub API** (`/users/m4rri4nne/repos`)
-- Filtered: no forks, must have a description; sorted by stars descending
-- Shows top 6 repos + a link card to the full GitHub profile
-- Skeleton loading state while fetching
-
-### Contact
-- Simplified to icon-only links: LinkedIn, GitHub, X/Twitter, Dev.to, Email, AWS Builder
+</div>

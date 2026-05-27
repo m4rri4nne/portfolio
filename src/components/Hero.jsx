@@ -59,7 +59,7 @@ export default function Hero() {
             <a href="#projects" className="btn btn-primary">{t['hero.cta1']}</a>
             <a href="#contact" className="btn btn-ghost">{t['hero.cta2']}</a>
             <a href="#articles" className="btn btn-ghost">{t['hero.cta3']}</a>
-            <a href="/alicia_depaula.pdf" download className="btn btn-gold">{t['hero.cta4']}</a>
+            <a href={`${import.meta.env.BASE_URL}alicia_depaula.pdf`} download className="btn btn-gold">{t['hero.cta4']}</a>
           </div>
         </div>
 
