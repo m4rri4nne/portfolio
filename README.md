@@ -5,7 +5,7 @@
 **QA Engineer · AWS Community Builder · He4rt Developers Mentor**
 
 [![Deploy](https://github.com/m4rri4nne/portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/m4rri4nne/portfolio/actions/workflows/deploy.yml)
-[![Live](https://img.shields.io/badge/Live-GitHub%20Pages-8b4fc8?style=flat-square&logo=github)](https://m4rri4nne.github.io/portifolio/)
+[![Live](https://img.shields.io/badge/Live-GitHub%20Pages-8b4fc8?style=flat-square&logo=github)](https://m4rri4nne.github.io/portfolio/)
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite&logoColor=white)
@@ -32,7 +32,7 @@
 ## 🗂 Project Structure
 
 ```
-portifolio/
+portfolio/
 ├── public/
 │   └── alicia_depaula.pdf     # CV — place file here
 ├── src/
@@ -64,7 +64,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173/portifolio/](http://localhost:5173/portifolio/)
+Open [http://localhost:5173/portfolio/](http://localhost:5173/portfolio/)
 
 ```bash
 npm run build    # outputs to dist/
