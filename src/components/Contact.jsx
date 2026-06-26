@@ -49,7 +49,7 @@ const CONTACTS = [
     ),
   },
   {
-    href: 'https://community.aws/u/m4rri4nne',
+    href: 'https://builder.aws.com/community/@m4rri4nne',
     label: 'AWS Builder',
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26">
