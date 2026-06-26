@@ -3,7 +3,7 @@ import { AppContext } from '../App'
 
 const CONTACTS = [
   {
-    href: 'https://linkedin.com/in/alicia-marianne',
+    href: 'www.linkedin.com/in/alicia-gonçalves-paula',
     label: 'LinkedIn',
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26">
