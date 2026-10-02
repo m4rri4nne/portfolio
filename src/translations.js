@@ -17,7 +17,7 @@ export const translations = {
     'hero.cta3': 'Meus Artigos',
     'hero.cta4': 'Baixar CV',
 
-    'about.eyebrow': '✦ Quem sou eu',
+    'about.eyebrow': 'Quem sou eu',
     'about.title':   'Sobre Mim',
     'about.p1': 'Desde 2021 na área de testes de software, com graduação em Engenharia de Controle e Automação e especialização em Engenharia de Software. Tenho experiência com testes manuais e automatizados de aplicações web, APIs e microsserviços, atuando atualmente como QA Engineer.',
     'about.p2': 'Minhas principais atividades envolvem planejamento e execução de testes manuais, desenvolvimento de testes automatizados no contexto de Continuous Testing, e participação ativa nas melhorias de processo de desenvolvimento nas Squads em que atuo.',
@@ -25,11 +25,11 @@ export const translations = {
     'about.p4': 'No tempo livre, gosto de desenvolver projetos pessoais e jogar jogos FPS e RPG.',
     'about.cta': 'Conheça meus serviços →',
 
-    'sk.testing': '⬡ Testes & Automação',
-    'sk.cloud':   '⬡ Cloud & DevOps',
-    'sk.langs':   '⬡ Linguagens',
+    'sk.testing': 'Testes & Automação',
+    'sk.cloud':   'Cloud & DevOps',
+    'sk.langs':   'Linguagens',
 
-    'lang.title':        '⬡ Idiomas',
+    'lang.title':        'Idiomas',
     'lang.pt':           'Português',
     'lang.en':           'Inglês',
     'lang.fr':           'Francês',
@@ -37,15 +37,15 @@ export const translations = {
     'lang.advanced':     'Avançado · C1',
     'lang.intermediate': 'Intermediário · B1',
 
-    'art.eyebrow':  '✦ Publicações',
+    'art.eyebrow':  'Publicações',
     'art.title':    'Meus Artigos',
 
-    'proj.eyebrow':  '✦ Open Source',
+    'proj.eyebrow':  'Open Source',
     'proj.title':    'Últimos Projetos',
     'proj.more':     'Ver todos os projetos →',
     'proj.moreDesc': 'Explore o repositório completo com todos os projetos e experimentos no GitHub.',
 
-    'srv.eyebrow': '✦ Mentorias, Consultoria & Palestras',
+    'srv.eyebrow': 'Mentorias, Consultoria & Palestras',
     'srv.title':   'Serviços',
     'srv.intro':   'Além de mentoria individual e em grupo para quem quer evoluir em QA, automação de testes ou cloud, também atuo como Senior QA Engineer para empresas — em projetos, freelance, contratos temporários ou de longo prazo — e realizo palestras e treinamentos personalizados.',
 
@@ -73,11 +73,13 @@ export const translations = {
     'srv.corp.feature2': 'Valor e formato a combinar',
     'srv.corp.cta':      'Entrar em contato',
 
-    'con.eyebrow': '✦ Vamos conversar',
+    'con.eyebrow': 'Vamos conversar',
     'con.title':   'Contato',
     'con.p1': 'Estou aberta a colaborações, palestras, mentorias e novas oportunidades. Se quiser trocar ideias sobre QA, automação ou cloud, pode chegar!',
     'con.p2': 'Me encontre nas redes abaixo ou abra uma issue em qualquer um dos meus repositórios no GitHub.',
 
+    'pg.prev': '← Anterior',
+    'pg.next': 'Próxima →',
     'footer': 'Alicia Marianne · Senior QA Engineer · AWS Community Builder · He4rt Developers',
   },
   en: {
@@ -98,7 +100,7 @@ export const translations = {
     'hero.cta3': 'My Articles',
     'hero.cta4': 'Download CV',
 
-    'about.eyebrow': '✦ Who I am',
+    'about.eyebrow': 'Who I am',
     'about.title':   'About Me',
     'about.p1': "In the software testing field since 2021, with a bachelor's degree in Control and Automation Engineering and a specialization in Software Engineering. I have experience with manual and automated testing of web applications, APIs and microservices, currently working as a QA Engineer.",
     'about.p2': 'My main activities include planning and executing manual tests, developing automated tests in a Continuous Testing context, and actively participating in development process improvements within the Squads I work in.',
@@ -106,11 +108,11 @@ export const translations = {
     'about.p4': 'In my free time, I enjoy working on personal side projects and playing FPS and RPG games.',
     'about.cta': 'Check out my services →',
 
-    'sk.testing': '⬡ Testing & Automation',
-    'sk.cloud':   '⬡ Cloud & DevOps',
-    'sk.langs':   '⬡ Languages',
+    'sk.testing': 'Testing & Automation',
+    'sk.cloud':   'Cloud & DevOps',
+    'sk.langs':   'Languages',
 
-    'lang.title':        '⬡ Languages',
+    'lang.title':        'Languages',
     'lang.pt':           'Portuguese',
     'lang.en':           'English',
     'lang.fr':           'French',
@@ -118,15 +120,15 @@ export const translations = {
     'lang.advanced':     'Advanced · C1',
     'lang.intermediate': 'Intermediate · B1',
 
-    'art.eyebrow':  '✦ Publications',
+    'art.eyebrow':  'Publications',
     'art.title':    'My Articles',
 
-    'proj.eyebrow':  '✦ Open Source',
+    'proj.eyebrow':  'Open Source',
     'proj.title':    'Latest Projects',
     'proj.more':     'View all projects →',
     'proj.moreDesc': 'Explore the full repository with all projects and experiments on GitHub.',
 
-    'srv.eyebrow': '✦ Mentoring, Consulting & Talks',
+    'srv.eyebrow': 'Mentoring, Consulting & Talks',
     'srv.title':   'Services',
     'srv.intro':   "Besides individual and group mentoring for those looking to grow in QA, test automation or cloud, I also work as a Senior QA Engineer for companies — through projects, freelance work, temporary or long-term contracts — and run custom talks and training sessions.",
 
@@ -154,11 +156,13 @@ export const translations = {
     'srv.corp.feature2': 'Pricing and format to be agreed',
     'srv.corp.cta':      'Get in touch',
 
-    'con.eyebrow': "✦ Let's talk",
+    'con.eyebrow': "Let's talk",
     'con.title':   'Contact',
     'con.p1': "I'm open to collaborations, talks, mentoring and new opportunities. If you want to exchange ideas about QA, automation or cloud, feel free to reach out!",
     'con.p2': 'Find me on the networks below or open an issue on any of my GitHub repositories.',
 
+    'pg.prev': '← Previous',
+    'pg.next': 'Next →',
     'footer': 'Alicia Marianne · Senior QA Engineer · AWS Community Builder',
   },
   fr: {
@@ -179,7 +183,7 @@ export const translations = {
     'hero.cta3': 'Mes Articles',
     'hero.cta4': 'Télécharger CV',
 
-    'about.eyebrow': '✦ Qui suis-je',
+    'about.eyebrow': 'Qui suis-je',
     'about.title':   'À Propos',
     'about.p1': "Dans le domaine du test logiciel depuis 2021, avec un diplôme en Ingénierie de Contrôle et Automatisation et une spécialisation en Génie Logiciel. J'ai de l'expérience en tests manuels et automatisés d'applications web, d'API et de microservices, et je travaille actuellement en tant que QA Engineer.",
     'about.p2': "Mes principales activités comprennent la planification et l'exécution de tests manuels, le développement de tests automatisés dans un contexte de Continuous Testing, et la participation active aux améliorations du processus de développement au sein des Squads.",
@@ -187,11 +191,11 @@ export const translations = {
     'about.p4': "Dans mon temps libre, j'aime développer des projets personnels et jouer à des jeux FPS et RPG.",
     'about.cta': 'Découvrir mes services →',
 
-    'sk.testing': '⬡ Tests & Automatisation',
-    'sk.cloud':   '⬡ Cloud & DevOps',
-    'sk.langs':   '⬡ Langages',
+    'sk.testing': 'Tests & Automatisation',
+    'sk.cloud':   'Cloud & DevOps',
+    'sk.langs':   'Langages',
 
-    'lang.title':        '⬡ Langues',
+    'lang.title':        'Langues',
     'lang.pt':           'Portugais',
     'lang.en':           'Anglais',
     'lang.fr':           'Français',
@@ -199,15 +203,15 @@ export const translations = {
     'lang.advanced':     'Avancé · C1',
     'lang.intermediate': 'Intermédiaire · B1',
 
-    'art.eyebrow':  '✦ Publications',
+    'art.eyebrow':  'Publications',
     'art.title':    'Mes Articles',
 
-    'proj.eyebrow':  '✦ Open Source',
+    'proj.eyebrow':  'Open Source',
     'proj.title':    'Derniers Projets',
     'proj.more':     'Voir tous les projets →',
     'proj.moreDesc': 'Explorez le dépôt complet avec tous les projets et expérimentations sur GitHub.',
 
-    'srv.eyebrow': '✦ Mentorat, Conseil & Conférences',
+    'srv.eyebrow': 'Mentorat, Conseil & Conférences',
     'srv.title':   'Services',
     'srv.intro':   "En plus du mentorat individuel et en groupe pour progresser en QA, automatisation des tests ou cloud, j'interviens aussi en tant que Senior QA Engineer pour des entreprises — en mission, en freelance, en contrat temporaire ou de longue durée — et je propose des conférences et formations sur mesure.",
 
@@ -235,11 +239,14 @@ export const translations = {
     'srv.corp.feature2': 'Tarif et format à convenir',
     'srv.corp.cta':      'Me contacter',
 
-    'con.eyebrow': '✦ Parlons-en',
+    'con.eyebrow': 'Parlons-en',
     'con.title':   'Contact',
     'con.p1': "Je suis ouverte aux collaborations, conférences, mentorats et nouvelles opportunités. N'hésitez pas à me contacter pour discuter de QA, automatisation ou cloud !",
     'con.p2': "Retrouvez-moi sur les réseaux ci-dessous ou ouvrez une issue sur l'un de mes dépôts GitHub.",
 
+    'pg.prev': '← Précédent',
+    'pg.next': 'Suivant →',
     'footer': 'Alicia Marianne · Senior QA Engineer · AWS Community Builder · He4rt Developers',
   },
 }
+

@@ -3,17 +3,16 @@ import { translations } from './translations'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import About from './components/About'
-import GothicDivider from './components/GothicDivider'
+import Divider from './components/Divider'
 import Articles from './components/Articles'
 import Projects from './components/Projects'
-import Services from './components/Services'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 export const AppContext = createContext()
 
 export default function App() {
-  const [theme, setTheme] = useState('dark')
+  const [theme, setTheme] = useState('light')
   const [lang, setLang] = useState('pt')
 
   useEffect(() => {
@@ -28,17 +27,13 @@ export default function App() {
 
   return (
     <AppContext.Provider value={{ theme, toggleTheme, lang, setLang, t }}>
+      <div className="mist" aria-hidden="true" />
       <Nav />
       <Hero />
-      <GothicDivider />
+      <Divider />
       <About />
-      <GothicDivider />
       <Articles />
-      <GothicDivider />
       <Projects />
-      <GothicDivider />
-      <Services />
-      <GothicDivider />
       <Contact />
       <Footer />
     </AppContext.Provider>

@@ -1,14 +1,12 @@
 import { useContext, useEffect, useState } from 'react'
 import { AppContext } from '../App'
+import { Rabbit, SectionHead } from './Ornaments'
 
 const PAGE_SIZE = 6
 
 function formatDate(iso) {
   const d = new Date(iso)
-  const y = d.getFullYear()
-  const m = String(d.getMonth() + 1).padStart(2, '0')
-  const day = String(d.getDate()).padStart(2, '0')
-  return `${y} · ${m} · ${day}`
+  return `${d.getFullYear()} · ${String(d.getMonth() + 1).padStart(2, '0')} · ${String(d.getDate()).padStart(2, '0')}`
 }
 
 export default function Articles() {
@@ -20,7 +18,7 @@ export default function Articles() {
   useEffect(() => {
     fetch('https://dev.to/api/articles?username=m4rri4nne&per_page=30')
       .then(r => r.json())
-      .then(data => setArticles(data))
+      .then(data => setArticles(Array.isArray(data) ? data : []))
       .catch(() => {})
       .finally(() => setLoading(false))
   }, [])
@@ -30,45 +28,34 @@ export default function Articles() {
 
   function goTo(next) {
     setPage(next)
-    document.getElementById('articles').scrollIntoView({ behavior: 'smooth', block: 'start' })
+    const el = document.getElementById('articles')
+    window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 64, behavior: 'smooth' })
   }
 
   return (
     <section id="articles">
       <div className="s-inner">
-        <div className="s-head">
-          <p className="s-eyebrow">{t['art.eyebrow']}</p>
-          <h2 className="s-title">{t['art.title']}</h2>
-        </div>
+        <SectionHead icon={<Rabbit kind="lan" size={56} />} eyebrow={t['art.eyebrow']} title={t['art.title']} />
         <div className="articles-grid">
           {loading
-            ? Array.from({ length: PAGE_SIZE }).map((_, i) => (
-                <div key={i} className="a-card a-card--skeleton" aria-hidden="true">
-                  <span className="a-badge badge-devto" style={{ opacity: 0 }}>◆ Dev.to</span>
-                  <div className="a-title sk-line" />
-                  <div className="a-desc sk-line" style={{ height: '3.5rem' }} />
-                  <div className="a-date sk-line" style={{ width: '6rem' }} />
-                </div>
-              ))
-            : visible.map(article => (
+            ? Array.from({ length: PAGE_SIZE }).map((_, i) => <div key={i} className="a-card a-card--skeleton" aria-hidden="true" />)
+            : visible.map((article, i) => (
                 <a key={article.id} className="a-card" href={article.url} target="_blank" rel="noopener noreferrer">
-                  <span className="a-badge badge-devto">◆ Dev.to</span>
+                  <div className="a-top">
+                    <span className="a-badge">Dev.to</span>
+                    <span className="a-num">{String(page * PAGE_SIZE + i + 1).padStart(2, '0')}</span>
+                  </div>
                   <div className="a-title">{article.title}</div>
                   <div className="a-desc">{article.description}</div>
                   <div className="a-date">{formatDate(article.published_at)}</div>
                 </a>
-              ))
-          }
+              ))}
         </div>
         {!loading && totalPages > 1 && (
           <div className="art-pagination">
-            <button className="art-page-btn" onClick={() => goTo(page - 1)} disabled={page === 0}>
-              ← Anterior
-            </button>
+            <button className="art-page-btn" onClick={() => goTo(page - 1)} disabled={page === 0}>{t['pg.prev']}</button>
             <span className="art-page-info">{page + 1} / {totalPages}</span>
-            <button className="art-page-btn" onClick={() => goTo(page + 1)} disabled={page === totalPages - 1}>
-              Próxima →
-            </button>
+            <button className="art-page-btn" onClick={() => goTo(page + 1)} disabled={page === totalPages - 1}>{t['pg.next']}</button>
           </div>
         )}
       </div>
