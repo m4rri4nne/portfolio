@@ -8,7 +8,7 @@ export const translations = {
 
     'hero.eyebrow': 'Bem-vinde!',
     'hero.role':    'Senior QA Engineer · AWS Community Builder · SDET · He4rt Developers',
-    'hero.bio':     'QA Engineer desde 2021, com foco em automação e Continuous Testing de aplicações web, APIs e microsserviços. AWS Community Builder e mentora na comunidade He4rt Developers.',
+    'hero.bio':     'QA Engineer desde 2021, com foco em automação e Continuous Testing de aplicações web, APIs e microsserviços. Aplico IA ao processo de Qualidade, criando skills e agentes que apoiam testes, análise e automação. AWS Community Builder e mentora na comunidade He4rt Developers.',
     'stats.repos':     'Repositórios',
     'stats.followers': 'Seguidores',
     'stats.articles':  'Artigos',
@@ -19,15 +19,18 @@ export const translations = {
 
     'about.eyebrow': 'Quem sou eu',
     'about.title':   'Sobre Mim',
-    'about.p1': 'Desde 2021 na área de testes de software, com graduação em Engenharia de Controle e Automação e especialização em Engenharia de Software. Tenho experiência com testes manuais e automatizados de aplicações web, APIs e microsserviços, atuando atualmente como QA Engineer.',
-    'about.p2': 'Minhas principais atividades envolvem planejamento e execução de testes manuais, desenvolvimento de testes automatizados no contexto de Continuous Testing, e participação ativa nas melhorias de processo de desenvolvimento nas Squads em que atuo.',
-    'about.p3': 'Como AWS Community Builder, contribuo ativamente com conteúdo sobre cloud e qualidade de software. Escrevo artigos no Dev.to e no AWS Builder Center, compartilhando aprendizados da prática diária de QA e testabilidade. Também participo ativamente dos projetos da He4rt Delas e ofereço mentorias na comunidade He4rt Developers.',
+    'about.p1': 'QA Engineer com mais de 5 anos de experiência, graduada em Engenharia de Controle e Automação e especializada em Engenharia de Software. Combino profundidade técnica com visão estratégica de qualidade: ajudo a definir estratégias de teste, equilibrando abordagens manuais e automatizadas em web, mobile, APIs e microsserviços, e conduzo melhorias de processo nas squads.',
+    'about.p2': 'Defino o que testar, em que nível e como automatizar em pipelines de Continuous Testing, e transformo qualidade em decisão com dashboards (Power BI, Looker Studio). Uso BDD para alinhar produto, dev e QA em requisitos que todos conseguem ler e validar.',
+    'about.pai': 'Experiencia no uso de IAs para apoiar a criação de planos de teste, combinando-a com outras ferramentas, como o Obsidian.',
+    'about.p3': 'Como AWS Community Builder, compartilho conhecimento com artigos técnicos sobre qualidade e desenvolvimento. Mentoro pessoas que querem entrar em QA na He4rt Developers e sou uma das líderes da He4rt Delas, construindo espaços de aprendizado inclusivos.',
     'about.p4': 'No tempo livre, gosto de desenvolver projetos pessoais e jogar jogos FPS e RPG.',
     'about.cta': 'Conheça meus serviços →',
 
     'sk.testing': 'Testes & Automação',
     'sk.cloud':   'Cloud & DevOps',
     'sk.langs':   'Linguagens',
+    'sk.ai':      'Inteligência Artificial',
+    'sk.ai.agents': 'Agentes de IA',
 
     'lang.title':        'Idiomas',
     'lang.pt':           'Português',
@@ -91,7 +94,7 @@ export const translations = {
 
     'hero.eyebrow': 'Welcome!',
     'hero.role':    'Senior QA Engineer · AWS Community Builder · SDET · He4rt Developers',
-    'hero.bio':     'QA Engineer since 2021, focused on automation and Continuous Testing of web apps, APIs and microservices. AWS Community Builder and mentor at the He4rt Developers community.',
+    'hero.bio':     'QA Engineer since 2021, focused on automation and Continuous Testing of web apps, APIs and microservices. I apply AI to the Quality process, building skills and agents that support testing, analysis and automation. AWS Community Builder and mentor at the He4rt Developers community.',
     'stats.repos':     'Repositories',
     'stats.followers': 'Followers',
     'stats.articles':  'Articles',
@@ -102,15 +105,18 @@ export const translations = {
 
     'about.eyebrow': 'Who I am',
     'about.title':   'About Me',
-    'about.p1': "In the software testing field since 2021, with a bachelor's degree in Control and Automation Engineering and a specialization in Software Engineering. I have experience with manual and automated testing of web applications, APIs and microservices, currently working as a QA Engineer.",
-    'about.p2': 'My main activities include planning and executing manual tests, developing automated tests in a Continuous Testing context, and actively participating in development process improvements within the Squads I work in.',
-    'about.p3': 'As an AWS Community Builder, I actively contribute content on cloud and software quality. I write articles on Dev.to and the AWS Builder Center, sharing lessons from daily QA practice and testability. I also actively participate in He4rt Delas projects and mentor within the He4rt Developers community.',
+    'about.p1': 'QA Engineer with 5+ years of experience, with a degree in Control and Automation Engineering and a specialization in Software Engineering. I combine technical depth with a strategic view of quality: I help define test strategies, balancing manual and automated approaches across web, mobile, APIs and microservices, and I drive process improvements in my squads.',
+    'about.p2': 'I shape what to test, at which level and how to automate it in Continuous Testing pipelines, and I turn quality into decisions with dashboards (Power BI, Looker Studio). I use BDD to align product, dev and QA around requirements everyone can read and validate.',
+    'about.pai': 'I have expertise in using AI to support test plan creation, combining it with other tools such as Obsidian.',
+    'about.p3': 'As an AWS Community Builder, I share knowledge through technical articles on quality and software development. I mentor aspiring QA engineers at He4rt Developers and am one of the leaders of He4rt Delas, building inclusive learning spaces.',
     'about.p4': 'In my free time, I enjoy working on personal side projects and playing FPS and RPG games.',
     'about.cta': 'Check out my services →',
 
     'sk.testing': 'Testing & Automation',
     'sk.cloud':   'Cloud & DevOps',
     'sk.langs':   'Languages',
+    'sk.ai':      'Artificial Intelligence',
+    'sk.ai.agents': 'AI Agents',
 
     'lang.title':        'Languages',
     'lang.pt':           'Portuguese',
@@ -174,7 +180,7 @@ export const translations = {
 
     'hero.eyebrow': 'Bienvenue!',
     'hero.role':    'Senior QA Engineer · AWS Community Builder · SDET · He4rt Developers',
-    'hero.bio':     "QA Engineer depuis 2021, spécialisée en automatisation et Continuous Testing d'applications web, d'API et de microservices. AWS Community Builder et mentor dans la communauté He4rt Developers.",
+    'hero.bio':     "QA Engineer depuis 2021, spécialisée en automatisation et Continuous Testing d'applications web, d'API et de microservices. J'applique l'IA au processus Qualité en créant des skills et des agents qui soutiennent les tests, l'analyse et l'automatisation. AWS Community Builder et mentor dans la communauté He4rt Developers.",
     'stats.repos':     'Dépôts',
     'stats.followers': 'Abonnés',
     'stats.articles':  'Articles',
@@ -185,15 +191,18 @@ export const translations = {
 
     'about.eyebrow': 'Qui suis-je',
     'about.title':   'À Propos',
-    'about.p1': "Dans le domaine du test logiciel depuis 2021, avec un diplôme en Ingénierie de Contrôle et Automatisation et une spécialisation en Génie Logiciel. J'ai de l'expérience en tests manuels et automatisés d'applications web, d'API et de microservices, et je travaille actuellement en tant que QA Engineer.",
-    'about.p2': "Mes principales activités comprennent la planification et l'exécution de tests manuels, le développement de tests automatisés dans un contexte de Continuous Testing, et la participation active aux améliorations du processus de développement au sein des Squads.",
-    'about.p3': "En tant qu'AWS Community Builder, je contribue activement avec du contenu sur le cloud et la qualité logicielle. J'écris des articles sur Dev.to et l'AWS Builder Center, partageant les leçons de ma pratique quotidienne du QA. Je participe également activement aux projets He4rt Delas et propose des mentorats au sein de la communauté He4rt Developers.",
+    'about.p1': "QA Engineer avec plus de 5 ans d'expérience, diplômée en Ingénierie de Contrôle et Automatisation avec une spécialisation en Génie Logiciel. J'allie expertise technique et vision stratégique de la qualité : je contribue à définir les stratégies de test, en équilibrant approches manuelles et automatisées sur le web, le mobile, les API et les microservices, et je porte des améliorations de processus dans mes squads.",
+    'about.p2': "Je définis quoi tester, à quel niveau et comment l'automatiser dans des pipelines de Continuous Testing, et je transforme la qualité en décisions grâce à des dashboards (Power BI, Looker Studio). J'utilise le BDD pour aligner produit, dev et QA autour d'exigences que tous peuvent lire et valider.",
+    'about.pai': "J'ai une expertise dans l'utilisation de l'IA pour soutenir la création de plans de test, en la combinant avec d'autres outils comme Obsidian.",
+    'about.p3': "En tant qu'AWS Community Builder, je partage mes connaissances via des articles techniques sur la qualité et le développement. J'accompagne des personnes qui visent le QA chez He4rt Developers et je suis l'une des leaders de He4rt Delas, pour créer des espaces d'apprentissage inclusifs.",
     'about.p4': "Dans mon temps libre, j'aime développer des projets personnels et jouer à des jeux FPS et RPG.",
     'about.cta': 'Découvrir mes services →',
 
     'sk.testing': 'Tests & Automatisation',
     'sk.cloud':   'Cloud & DevOps',
     'sk.langs':   'Langages',
+    'sk.ai':      'Intelligence Artificielle',
+    'sk.ai.agents': 'Agents IA',
 
     'lang.title':        'Langues',
     'lang.pt':           'Portugais',

@@ -5,6 +5,7 @@ import { Butterfly, SectionHead } from './Ornaments'
 const SKILLS = [
   { key: 'sk.testing', tags: ['Playwright', 'k6', 'NUnit', 'Selenium', 'Postman', 'JMeter'] },
   { key: 'sk.cloud', tags: ['Azure', 'Docker', 'GitHub Actions', 'CI/CD', 'Grafana', 'PostgreSQL'] },
+  { key: 'sk.ai', tags: ['Claude', 'Claude Code', 'ChatGPT', 'sk.ai.agents'] },
   { key: 'sk.langs', tags: ['Python', 'TypeScript', 'JavaScript', 'C# / .NET', 'SQL'] },
 ]
 
@@ -25,6 +26,7 @@ export default function About() {
           <div className="about-text">
             <p>{t['about.p1']}</p>
             <p>{t['about.p2']}</p>
+            <p>{t['about.pai']}</p>
             <p>{t['about.p3']}</p>
             <p className="about-aside">{t['about.p4']}</p>
           </div>
@@ -33,7 +35,7 @@ export default function About() {
               <div key={s.key} className="skill-block">
                 <div className="sk-name">{t[s.key]}</div>
                 <div className="sk-tags">
-                  {s.tags.map(tag => <span key={tag} className="sk-tag">{tag}</span>)}
+                  {s.tags.map(tag => <span key={tag} className="sk-tag">{t[tag] || tag}</span>)}
                 </div>
               </div>
             ))}

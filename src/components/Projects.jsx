@@ -3,6 +3,7 @@ import { AppContext } from '../App'
 import { Butterfly, SectionHead } from './Ornaments'
 
 const SHOW = 6
+const EXCLUDED = ['portfolio']
 
 export default function Projects() {
   const { t } = useContext(AppContext)
@@ -16,8 +17,8 @@ export default function Projects() {
         if (!Array.isArray(data)) return
         setRepos(
           data
-            .filter(r => !r.fork && r.description)
-            .sort((a, b) => b.stargazers_count - a.stargazers_count)
+            .filter(r => !r.fork && r.description && !EXCLUDED.includes(r.name))
+            .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
             .slice(0, SHOW)
         )
       })
